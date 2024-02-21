@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+img{
+    width: 300px;
+
+}
+h1{
+    font-size:20px;
+    font-family: "Caveat", cursive;
+}
+#yes{
+    background: rgb(64, 239, 64);
+    padding: 5px 20px;
+    border: 1px solid rgb(38, 36, 36);
+}
+button:nth-child(2),.No{
+    background-color: red;
+    padding: 5px 20px;
+    border: 1px solid rgb(38, 36, 36);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h2{
+    font-family: "Caveat", cursive;
+}
